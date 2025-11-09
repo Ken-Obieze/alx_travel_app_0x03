@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: alx_travel_app
+Version: 0.1
+Requires-Dist: Django>=4.2.0
+Requires-Dist: djangorestframework
+Requires-Dist: drf-yasg
+Requires-Dist: python-dotenv
+Requires-Dist: django-environ
+Dynamic: requires-dist

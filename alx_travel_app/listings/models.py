@@ -64,11 +64,16 @@ class Listing(models.Model):
         return f"{self.name} in {self.location}"
 
     @property
-    def average_rating(self):
-        """Calculate average rating from reviews"""
+    def average_rating(self) -> float:
+        """Calculate average rating from reviews
+        
+        Returns:
+            float: The average rating as a float, or 0.0 if there are no reviews
+        """
         reviews = self.reviews.all()
-        if reviews:
-            return sum(review.rating for review in reviews) / len(reviews)
+        if not reviews:
+            return 0.0
+        return float(sum(review.rating for review in reviews) / len(reviews))
         return 0
 
 
@@ -108,12 +113,17 @@ class Booking(models.Model):
         decimal_places=2,
         validators=[MinValueValidator(Decimal('0.01'))]
     )
-    status = models.ForeignKey(
-        BookingStatus,
+    status_info = models.ForeignKey(
+        'BookingStatus',
         on_delete=models.PROTECT,
-        related_name='bookings'
+        related_name='bookings',
+        db_column='status_id'
     )
     created_at = models.DateTimeField(auto_now_add=True)
+
+    def get_duration_days(self):
+        """Calculate booking duration in days"""
+        return (self.end_date - self.start_date).days
 
     class Meta:
         db_table = 'Booking'
@@ -131,11 +141,6 @@ class Booking(models.Model):
 
     def __str__(self):
         return f"Booking {self.booking_id} - {self.property.name}"
-
-    @property
-    def duration_days(self):
-        """Calculate booking duration in days"""
-        return (self.end_date - self.start_date).days
 
     def clean(self):
         """Custom validation"""

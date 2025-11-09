@@ -1,0 +1,4 @@
+include requirements.txt
+include .env.sample
+recursive-include alx_travel_app/static *
+recursive-include alx_travel_app/templates *

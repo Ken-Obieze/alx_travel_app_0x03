@@ -1,13 +1,24 @@
 """
 Views for the listings app.
 """
-from rest_framework import viewsets, status, filters
+from rest_framework import viewsets, status, filters, generics
 from rest_framework.decorators import action
+from rest_framework.response import Response
+from rest_framework.permissions import IsAuthenticated, AllowAny, IsAuthenticatedOrReadOnly
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly, AllowAny
 from rest_framework.views import APIView
 from django.shortcuts import get_object_or_404
 from django.db import models
+from django.conf import settings
+import logging
+from .payment_serializers import (
+    PaymentInitiateSerializer, 
+    PaymentResponseSerializer,
+    PaymentVerifyResponseSerializer,
+    PaymentListSerializer
+)
+from .tasks import send_payment_confirmation_email, send_payment_failed_email
 from django.conf import settings
 from django_filters.rest_framework import DjangoFilterBackend
 
@@ -222,7 +233,7 @@ class BookingViewSet(viewsets.ModelViewSet):
     lookup_field = 'booking_id'
     
     filter_backends = [DjangoFilterBackend, filters.OrderingFilter]
-    filterset_fields = ['status__status_name', 'property']
+    filterset_fields = ['status_info__status_name', 'property']
     ordering_fields = ['start_date', 'created_at']
     ordering = ['-created_at']
 
@@ -361,14 +372,15 @@ class ReviewViewSet(viewsets.ModelViewSet):
         serializer.save(user=self.request.user)
 
 
-class PaymentInitiateView(APIView):
+class PaymentInitiateView(generics.CreateAPIView):
     """
     API View to initiate payment via Chapa
     POST /api/payments/initiate/
     """
     permission_classes = [IsAuthenticated]
+    serializer_class = PaymentInitiateSerializer
     
-    def post(self, request):
+    def create(self, request, *args, **kwargs):
         """
         Initiate a payment for a booking
         
@@ -377,13 +389,9 @@ class PaymentInitiateView(APIView):
             "booking_id": "uuid-here"
         }
         """
-        booking_id = request.data.get('booking_id')
-        
-        if not booking_id:
-            return Response(
-                {'error': 'booking_id is required'},
-                status=status.HTTP_400_BAD_REQUEST
-            )
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        booking_id = serializer.validated_data['booking_id']
         
         try:
             # Get the booking
@@ -445,20 +453,24 @@ class PaymentInitiateView(APIView):
                 payment_method=payment_method,
                 currency='ETB',
                 customer_email=request.user.email,
-                customer_first_name=request.user.first_name,
-                customer_last_name=request.user.last_name,
-                customer_phone=request.user.phone_number
+                customer_first_name=request.user.first_name or '',
+                customer_last_name=request.user.last_name or '',
+                customer_phone=request.user.phone_number or ''
             )
             
             logger.info(f"Payment initiated: {payment.payment_id}")
             
-            return Response({
+            # Create response data
+            response_data = {
                 'status': 'success',
                 'message': 'Payment initialized successfully',
-                'payment_id': payment.payment_id,
+                'payment_id': str(payment.payment_id),
                 'checkout_url': payment_response['checkout_url'],
                 'tx_ref': payment_response['tx_ref']
-            }, status=status.HTTP_201_CREATED)
+            }
+            
+            headers = self.get_success_headers(serializer.data)
+            return Response(response_data, status=status.HTTP_201_CREATED, headers=headers)
             
         except Booking.DoesNotExist:
             return Response(
@@ -468,35 +480,43 @@ class PaymentInitiateView(APIView):
         except Exception as e:
             logger.error(f"Error initiating payment: {str(e)}")
             return Response(
-                {'error': f'An error occurred: {str(e)}'},
+                {'error': 'An error occurred while processing your payment'},
                 status=status.HTTP_500_INTERNAL_SERVER_ERROR
             )
 
 
-class PaymentVerifyView(APIView):
+class PaymentVerifyView(generics.RetrieveAPIView):
     """
     API View to verify payment status
     GET /api/payments/verify/{tx_ref}/
     """
     permission_classes = [IsAuthenticated]
+    serializer_class = PaymentVerifyResponseSerializer
+    lookup_field = 'tx_ref'
+    lookup_url_kwarg = 'tx_ref'
     
-    def get(self, request, tx_ref):
+    def get_queryset(self):
+        return Payment.objects.select_related('booking')
+    
+    def get_object(self):
+        queryset = self.filter_queryset(self.get_queryset())
+        filter_kwargs = {self.lookup_field: self.kwargs[self.lookup_url_kwarg]}
+        obj = get_object_or_404(queryset, **filter_kwargs)
+        
+        # Verify user has permission
+        if obj.booking.user != self.request.user:
+            raise PermissionDenied("You do not have permission to verify this payment")
+            
+        return obj
+    
+    def get(self, request, *args, **kwargs):
         """
         Verify a payment transaction
         """
+        payment = self.get_object()
+        tx_ref = self.kwargs.get(self.lookup_url_kwarg)
+        
         try:
-            # Get payment by transaction reference
-            payment = Payment.objects.select_related('booking').get(
-                chapa_reference=tx_ref
-            )
-            
-            # Verify user has permission
-            if payment.booking.user != request.user:
-                return Response(
-                    {'error': 'You do not have permission to verify this payment'},
-                    status=status.HTTP_403_FORBIDDEN
-                )
-            
             # Initialize Chapa service and verify payment
             chapa_service = ChapaService()
             verification_result = chapa_service.verify_payment(tx_ref)
@@ -539,23 +559,18 @@ class PaymentVerifyView(APIView):
                 logger.warning(f"Payment failed: {payment.payment_id}")
             
             # Return updated payment status
-            serializer = PaymentSerializer(payment)
+            payment_serializer = PaymentResponseSerializer(payment, context=self.get_serializer_context())
             return Response({
                 'status': 'success',
-                'payment': serializer.data,
+                'payment': payment_serializer.data,
                 'chapa_status': chapa_status,
                 'verification_data': payment_data
             })
             
-        except Payment.DoesNotExist:
-            return Response(
-                {'error': 'Payment not found'},
-                status=status.HTTP_404_NOT_FOUND
-            )
         except Exception as e:
             logger.error(f"Error verifying payment: {str(e)}")
             return Response(
-                {'error': f'An error occurred: {str(e)}'},
+                {'error': 'An error occurred while verifying the payment'},
                 status=status.HTTP_500_INTERNAL_SERVER_ERROR
             )
 
@@ -566,6 +581,7 @@ class PaymentWebhookView(APIView):
     POST /api/payments/webhook/
     """
     permission_classes = [AllowAny]  # Chapa will call this endpoint
+    serializer_class = None  # No serializer needed for webhook
     
     def post(self, request):
         """
@@ -645,51 +661,46 @@ class PaymentWebhookView(APIView):
             )
 
 
-class PaymentListView(APIView):
+class PaymentListView(generics.ListAPIView):
     """
     API View to list payments for the authenticated user
     GET /api/payments/
     """
     permission_classes = [IsAuthenticated]
+    serializer_class = PaymentListSerializer
     
-    def get(self, request):
-        """
-        Get all payments for the current user
-        """
-        payments = Payment.objects.filter(
-            booking__user=request.user
+    def get_queryset(self):
+        return Payment.objects.filter(
+            booking__user=self.request.user
         ).select_related('booking', 'booking__property').order_by('-payment_date')
-        
-        serializer = PaymentSerializer(payments, many=True)
-        return Response(serializer.data)
 
 
-class PaymentDetailView(APIView):
+class PaymentDetailView(generics.RetrieveAPIView):
     """
     API View to get payment details
     GET /api/payments/{payment_id}/
     """
     permission_classes = [IsAuthenticated]
+    serializer_class = PaymentResponseSerializer
+    queryset = Payment.objects.all()
+    lookup_field = 'payment_id'
     
-    def get(self, request, payment_id):
-        """
-        Get details of a specific payment
-        """
+    def get_queryset(self):
+        return super().get_queryset().select_related(
+            'booking', 'booking__property', 'booking__user'
+        )
+        
+    def retrieve(self, request, *args, **kwargs):
         try:
-            payment = Payment.objects.select_related(
-                'booking', 'booking__property', 'booking__user'
-            ).get(payment_id=payment_id)
-            
+            payment = self.get_object()
             # Verify user has permission
             if payment.booking.user != request.user:
                 return Response(
                     {'error': 'You do not have permission to view this payment'},
                     status=status.HTTP_403_FORBIDDEN
                 )
-            
-            serializer = PaymentSerializer(payment)
+            serializer = self.get_serializer(payment)
             return Response(serializer.data)
-            
         except Payment.DoesNotExist:
             return Response(
                 {'error': 'Payment not found'},

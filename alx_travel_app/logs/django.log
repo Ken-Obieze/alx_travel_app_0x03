@@ -1,0 +1,744 @@
+[INFO] 2025-11-09 21:21:49,206 autoreload 8536 6664 Watching for file changes with StatReloader
+[INFO] 2025-11-09 21:22:08,144 basehttp 8536 21952 "GET / HTTP/1.1" 301 0
+[INFO] 2025-11-09 21:22:08,158 basehttp 8536 28180 code 400, message Bad request syntax ('\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03´\x8e\x80%7\x98\x08ö')
+[ERROR] 2025-11-09 21:22:08,159 basehttp 8536 28180 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:22:08,163 basehttp 8536 21676 code 400, message Bad request version ('ó#\x11\x9dº\x98qõÁã>\x0e\x07Í')
+[ERROR] 2025-11-09 21:22:08,164 basehttp 8536 21676 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:22:13,297 basehttp 8536 6168 code 400, message Bad request version ('Iä')
+[ERROR] 2025-11-09 21:22:13,298 basehttp 8536 6168 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:22:13,301 basehttp 8536 30252 code 400, message Bad request version ('\x84TK¿\x07£åe\x98¬ç¥Èw1\x9d,\x92[a¨ÏÒOxÌ\x02e#\x95è5\x8bß&\x8e0I²}\x8alT:N\x94\x9a¢¦\x97K\x01I,ç¶Á&\x83ÈÁ6Í\x03tmU\x82z')
+[ERROR] 2025-11-09 21:22:13,303 basehttp 8536 30252 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:22:36,786 basehttp 8536 17168 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+[ERROR] 2025-11-09 21:22:36,786 basehttp 8536 17168 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:22:36,794 basehttp 8536 4276 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06')
+[ERROR] 2025-11-09 21:22:36,795 basehttp 8536 4276 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:22:36,880 basehttp 8536 19192 code 400, message Bad request version ('yE\x86Ñ\x80\x15ö¹S\x9avDm¬¤ËGd:¸GE\x16\x9dPY¹(Ç~Ç')
+[ERROR] 2025-11-09 21:22:36,887 basehttp 8536 19192 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:22:36,891 basehttp 8536 31760 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06')
+[ERROR] 2025-11-09 21:22:36,892 basehttp 8536 31760 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:22:36,918 basehttp 8536 20588 code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sêê\x00\x00\x00')
+[ERROR] 2025-11-09 21:22:36,927 basehttp 8536 20588 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:22:36,928 basehttp 8536 7384 code 400, message Bad request version ('\x01\x8d_\x00')
+[ERROR] 2025-11-09 21:22:36,944 basehttp 8536 7384 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:23:00,649 basehttp 8536 31876 code 400, message Bad request version ('ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sjj\x00\x00\x003\x04ï\x04í')
+[ERROR] 2025-11-09 21:23:00,650 basehttp 8536 31876 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:23:00,653 basehttp 8536 29484 code 400, message Bad request version ('\x91ÕF|êë°\x13\x9a\x04*X\x94ºY|e8\x98Ã²,Êä´')
+[ERROR] 2025-11-09 21:23:00,654 basehttp 8536 29484 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:23:00,657 basehttp 8536 3716 code 400, message Bad request version ('ÌÑ-')
+[ERROR] 2025-11-09 21:23:00,657 basehttp 8536 3716 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:23:00,658 basehttp 8536 29344 code 400, message Bad request version ('¢')
+[ERROR] 2025-11-09 21:23:00,658 basehttp 8536 29344 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:23:00,662 basehttp 8536 27584 code 400, message Bad request version ('¦45ÆBë#<D\x84\x9e<uÄª\x03\x1a)C~hM5:\x9e;À\x8fd¦`véexF\x8c¬8-S\x89«[\x00<nÃWç\x9c}b\x99B%õ}£V}\x83\x19\x96(:\x0e¨Ç\x8cD¸3\x80R\x13\x8eiké±XØE¤Y9º\x02\x01\x17l¼\x05Ïª¯\x8dÖ0]\x04iãë3\x19h\x88©gHÍwP9l/§G\x14b\x08-\x87X\x94<u\x88')
+[INFO] 2025-11-09 21:23:00,663 basehttp 8536 23740 code 400, message Bad request version ('ôÑâøªLvuà\x1a¼\x80O\x03q_{/Ô×a\x14§ßz\x14÷\x84')
+[ERROR] 2025-11-09 21:23:00,663 basehttp 8536 27584 You're accessing the development server over HTTPS, but it only supports HTTP.
+[ERROR] 2025-11-09 21:23:00,663 basehttp 8536 23740 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:23:13,491 basehttp 8536 4240 code 400, message Bad request version ('£\x03\x9fª!\x95$Tõö\x08')
+[ERROR] 2025-11-09 21:23:13,491 basehttp 8536 4240 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:23:13,493 basehttp 8536 23504 code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S')
+[ERROR] 2025-11-09 21:23:13,493 basehttp 8536 23504 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:23:13,497 basehttp 8536 16064 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00#\x00\x00\x00\x17\x00\x00\x00+\x00\x07\x06úú\x03\x04\x03\x03\x00\x05\x00\x05\x01\x00\x00\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00')
+[INFO] 2025-11-09 21:23:13,505 basehttp 8536 24656 code 400, message Bad request version ('\x00\x02\x01\x00\x00\x12\x00\x00\x00#\x00\x00ÿ\x01\x00\x01\x00\x003\x04ï\x04í**\x00\x01\x00\x11ì\x04À\x95£E')
+[ERROR] 2025-11-09 21:23:13,506 basehttp 8536 16064 You're accessing the development server over HTTPS, but it only supports HTTP.
+[ERROR] 2025-11-09 21:23:13,509 basehttp 8536 24656 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:23:13,515 basehttp 8536 25508 code 400, message Bad request version ('\x14¥h\x8eÀK÷\x84AeÞÈÂù')
+[ERROR] 2025-11-09 21:23:13,517 basehttp 8536 25508 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:23:13,518 basehttp 8536 20164 code 400, message Bad request version ('Vi·b%\x9dpÖkZ-Ë+QØ6/Uç\x1a(ÑÂ')
+[ERROR] 2025-11-09 21:23:13,519 basehttp 8536 20164 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:24:01,187 basehttp 8536 17316 "GET /admin HTTP/1.1" 301 0
+[INFO] 2025-11-09 21:24:01,193 basehttp 8536 9528 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00-\x00\x02\x01\x01\x00\x12\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[ERROR] 2025-11-09 21:24:01,194 basehttp 8536 9528 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:24:01,197 basehttp 8536 16996 code 400, message Bad request version ("\x91\x973ÌÉ\x06\x1b¦¤,\x17\x17'@\x97\x87ôX3")
+[ERROR] 2025-11-09 21:24:01,197 basehttp 8536 16996 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:24:13,598 basehttp 8536 6292 "GET / HTTP/1.1" 301 0
+[INFO] 2025-11-09 21:24:13,606 basehttp 8536 22228 code 400, message Bad request version ('**\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93**\x00\x00\x00')
+[ERROR] 2025-11-09 21:24:13,608 basehttp 8536 22228 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:24:13,622 basehttp 8536 23820 code 400, message Bad request version ('¶å\x03Y«C\x93Ø\x94¤´à\x14¤2W\x08bXD\x99¨_\x82SW)£"VY\x94:Md\x88')
+[ERROR] 2025-11-09 21:24:13,624 basehttp 8536 23820 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:24:28,677 basehttp 8536 5008 "GET / HTTP/1.1" 301 0
+[INFO] 2025-11-09 21:24:28,688 basehttp 8536 28804 code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063\x9a\x9a\x00\x00\x00')
+[ERROR] 2025-11-09 21:24:28,689 basehttp 8536 28804 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:24:28,694 basehttp 8536 10360 code 400, message Bad request version ('ç¤7\x1a+*ë5C\x93\x9b:J\x04\x10ê\x8ep9¸kV·0ê\x9b%Ô')
+[ERROR] 2025-11-09 21:24:28,695 basehttp 8536 10360 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:27:34,755 autoreload 29980 5496 Watching for file changes with StatReloader
+[WARNING] 2025-11-09 21:32:09,368 log 32576 25088 Not Found: /
+[WARNING] 2025-11-09 21:32:09,446 log 32576 29000 Not Found: /favicon.ico
+[INFO] 2025-11-09 21:32:33,478 autoreload 31388 32364 Watching for file changes with StatReloader
+[INFO] 2025-11-09 21:32:37,404 basehttp 31388 5764 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x07ï\x01\x00\x07ë\x03\x03´Úè\x8e\x1aY»\x80^¢Hkè\x86-\x83^je,\x17Ùé\x95Â\x03ÄNä|Gb')
+[ERROR] 2025-11-09 21:32:37,405 basehttp 31388 5764 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:37,407 basehttp 31388 30148 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00+\x00\x07\x06zz\x03\x04\x03\x03\x00#\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00\x12\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x17\x00\x00\x003\x04ï\x04í')
+[ERROR] 2025-11-09 21:32:37,407 basehttp 31388 30148 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:37,408 basehttp 31388 28972 code 400, message Bad request version ('ÚÊ´\x05')
+[ERROR] 2025-11-09 21:32:37,408 basehttp 31388 28972 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:37,412 basehttp 31388 28916 code 400, message Bad request version ('v\x92')
+[ERROR] 2025-11-09 21:32:37,413 basehttp 31388 28916 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:39,761 basehttp 31388 19764 code 400, message Bad request version ('F\x88y4\x83/\x10Î\x16ê<£"½þ1(i\x88')
+[ERROR] 2025-11-09 21:32:39,762 basehttp 31388 19764 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:39,764 basehttp 31388 5860 code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063\x8a\x8a\x00\x00\x00+\x00\x07\x06**\x03\x04\x03\x03\x00\x17\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00')
+[ERROR] 2025-11-09 21:32:39,765 basehttp 31388 5860 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:39,768 basehttp 31388 26484 code 400, message Bad request version ('6~\x16\xad\x03L\x0f®\x83Ó[HH_«\x04¼íA4smÙ\x0e\x00')
+[INFO] 2025-11-09 21:32:39,769 basehttp 31388 380 code 400, message Bad request version ('\x00\x02\x01\x00\x00\x17\x00\x00\x00')
+[ERROR] 2025-11-09 21:32:39,769 basehttp 31388 26484 You're accessing the development server over HTTPS, but it only supports HTTP.
+[ERROR] 2025-11-09 21:32:39,769 basehttp 31388 380 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:39,772 basehttp 31388 23876 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+[ERROR] 2025-11-09 21:32:39,772 basehttp 31388 23876 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:39,772 basehttp 31388 32508 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00#\x00\x00\x00')
+[ERROR] 2025-11-09 21:32:39,773 basehttp 31388 32508 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:40,490 basehttp 31388 2160 code 400, message Bad request version ('\x0fOû3ZK\x82M®V\x9bBR\x91]\x94A8.¥X\x00')
+[ERROR] 2025-11-09 21:32:40,490 basehttp 31388 2160 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:40,492 basehttp 31388 21996 code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[ERROR] 2025-11-09 21:32:40,492 basehttp 31388 21996 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:40,496 basehttp 31388 30548 code 400, message Bad request version ('Gijf')
+[ERROR] 2025-11-09 21:32:40,497 basehttp 31388 30548 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:40,498 basehttp 31388 20376 code 400, message Bad request version ('\x10(mLkÙàb®PÌ\x9aÂ\x15}\x18\x89ûh\x86Ñ<G)â\x97é(Bðp')
+[ERROR] 2025-11-09 21:32:40,500 basehttp 31388 20376 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:40,508 basehttp 31388 27992 code 400, message Bad request version ('ËqüP\x19ªeØ\x9a\x83Ü-C\x13°Ùt0Å2vhÚÁ\x96?\x04\x82®bóI\\\xadZ*ºº+ZóÜ')
+[ERROR] 2025-11-09 21:32:40,509 basehttp 31388 27992 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:40,512 basehttp 31388 11192 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+[ERROR] 2025-11-09 21:32:40,512 basehttp 31388 11192 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:40,862 basehttp 31388 22324 code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93\x9a\x9a\x00\x00\x00-\x00\x02\x01\x01\x00\x17\x00\x00\x00#\x00\x00\x00')
+[ERROR] 2025-11-09 21:32:40,863 basehttp 31388 22324 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:40,866 basehttp 31388 18116 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03üþ5\x07ÓU\x17\x98bñ¶Ò\x99\x89?\x12»´i-')
+[ERROR] 2025-11-09 21:32:40,867 basehttp 31388 18116 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:40,871 basehttp 31388 31876 code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93')
+[ERROR] 2025-11-09 21:32:40,872 basehttp 31388 31876 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:40,872 basehttp 31388 5712 code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sÊÊ\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00+\x00\x07\x06')
+[ERROR] 2025-11-09 21:32:40,873 basehttp 31388 5712 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:40,875 basehttp 31388 32160 code 400, message Bad request version ("ö\x9d\x9a!·\x98\x16QÙa#zj´S\x8ab\x15ì$\x02\x02[QSv\x0e¦:>\x80Rpüc\x8a0\x15\x8fU¦×ÒÃ'+§4!ÉÍÇ¶")
+[ERROR] 2025-11-09 21:32:40,876 basehttp 31388 32160 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:40,876 basehttp 31388 30684 code 400, message Bad request version ('~Ì\x8d¨<±Ìÿ')
+[ERROR] 2025-11-09 21:32:40,877 basehttp 31388 30684 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:41,987 basehttp 31388 29252 code 400, message Bad request version ("EUièbÇÇV±~ùÈ~ÆuV\x1agJ)'\x07Ã\x92S\x1a")
+[ERROR] 2025-11-09 21:32:41,988 basehttp 31388 29252 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:41,990 basehttp 31388 8536 code 400, message Bad request version ('È\x1a\x0eÇ7!\x8b\x83i$ðÇ\x8aõ\x00+\x00\x07\x06ªª\x03\x04\x03\x03\x00\x1b\x00\x03\x02\x00\x02\x00-\x00\x02\x01\x01ÿ\x01\x00\x01\x00\x00\x12\x00\x00\x00')
+[ERROR] 2025-11-09 21:32:41,990 basehttp 31388 8536 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:41,995 basehttp 31388 32408 code 400, message Bad request version (')Å^æ-\x00')
+[ERROR] 2025-11-09 21:32:41,995 basehttp 31388 32408 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:41,996 basehttp 31388 31436 code 400, message Bad request version ('¿TrM\x08o\x93Öu¨;¤ÔÎ\x97\x1a\x14H\x06\x06ã9\x88eA\x98Ä\x8e\x1aPsÙ\x19ù¿\x92êl\x9cjþ\x8dÐz`=ìø³')
+[ERROR] 2025-11-09 21:32:41,997 basehttp 31388 31436 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:41,999 basehttp 31388 27396 code 400, message Bad request version ("xô3@U±X\x80\x14X¥«\x92b'Cx¨7,")
+[INFO] 2025-11-09 21:32:42,000 basehttp 31388 18396 code 400, message Bad request version ("\x84ÿà_\x83½åÏMT\x95{\x18\x8esUë'ds\x062\x82\x9fpL=z»Ä\x89\x8a\x00\x17\x00\x00\x00+\x00\x07\x06\x8a\x8a\x03\x04\x03\x03\x00")
+[ERROR] 2025-11-09 21:32:42,000 basehttp 31388 27396 You're accessing the development server over HTTPS, but it only supports HTTP.
+[ERROR] 2025-11-09 21:32:42,000 basehttp 31388 18396 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:43,345 basehttp 31388 9768 code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+[ERROR] 2025-11-09 21:32:43,346 basehttp 31388 9768 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:43,349 basehttp 31388 31612 code 400, message Bad request version ('¹"ó\x9dH')
+[ERROR] 2025-11-09 21:32:43,350 basehttp 31388 31612 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:43,356 basehttp 31388 24896 code 400, message Bad request version ('ä\x81&ø\x99\x01\x816h¹')
+[INFO] 2025-11-09 21:32:43,357 basehttp 31388 9104 code 400, message Bad request version ('w\x845ïÎ')
+[ERROR] 2025-11-09 21:32:43,357 basehttp 31388 24896 You're accessing the development server over HTTPS, but it only supports HTTP.
+[ERROR] 2025-11-09 21:32:43,357 basehttp 31388 9104 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:43,360 basehttp 31388 24708 code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063\x1a\x1a\x00\x00\x00-\x00\x02\x01\x01\x00')
+[ERROR] 2025-11-09 21:32:43,361 basehttp 31388 24708 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:32:43,361 basehttp 31388 7852 code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s')
+[ERROR] 2025-11-09 21:32:43,363 basehttp 31388 7852 You're accessing the development server over HTTPS, but it only supports HTTP.
+[WARNING] 2025-11-09 21:33:10,598 log 20200 12340 Not Found: /
+[INFO] 2025-11-09 21:36:34,817 autoreload 17024 32528 Watching for file changes with StatReloader
+[INFO] 2025-11-09 21:36:37,434 basehttp 17024 20364 code 400, message Bad request version ('\x00\x02\x01\x00ÿ\x01\x00\x01\x00\x00\x17\x00\x00\x00')
+[ERROR] 2025-11-09 21:36:37,434 basehttp 17024 20364 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:36:37,436 basehttp 17024 21780 code 400, message Bad request syntax ('\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03L¦\x06')
+[ERROR] 2025-11-09 21:36:37,437 basehttp 17024 21780 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:36:37,451 basehttp 17024 32004 code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93\x1a\x1a\x00\x00\x00\x12\x00\x00\x00+\x00\x07\x06ÚÚ\x03\x04\x03\x03\x00')
+[INFO] 2025-11-09 21:36:37,451 basehttp 17024 25312 code 400, message Bad request version ('zz\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063úú\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00+\x00\x07\x06ÚÚ\x03\x04\x03\x03\x00\x17\x00\x00\x00#\x00\x00\x00')
+[ERROR] 2025-11-09 21:36:37,452 basehttp 17024 32004 You're accessing the development server over HTTPS, but it only supports HTTP.
+[ERROR] 2025-11-09 21:36:37,453 basehttp 17024 25312 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:36:37,459 basehttp 17024 21460 code 400, message Bad request version ('9(\x0eøú\x83\x98:3\x99}<\x83G.\x022')
+[INFO] 2025-11-09 21:36:37,459 basehttp 17024 4296 code 400, message Bad request version ('»0-\x0f\x9b\x03)þ\x0fm&ò=S×ïµ\x97\x8a@¨óÊ]6®Z\x7få&e\x0f\x8c\x97_j\x98Ë,3*ëDrD2e©µÁ\x02wi\x97\x17#\x81\x16¶\x90©ù\x15Aü\x18')
+[ERROR] 2025-11-09 21:36:37,460 basehttp 17024 21460 You're accessing the development server over HTTPS, but it only supports HTTP.
+[ERROR] 2025-11-09 21:36:37,461 basehttp 17024 4296 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:36:41,852 basehttp 17024 2188 code 400, message Bad request version ('**\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063úú\x00\x00\x00+\x00\x07\x06ªª\x03\x04\x03\x03\x00')
+[ERROR] 2025-11-09 21:36:41,852 basehttp 17024 2188 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:36:41,855 basehttp 17024 29780 code 400, message Bad request version ('\x8b\x957êl©')
+[ERROR] 2025-11-09 21:36:41,855 basehttp 17024 29780 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:36:41,868 basehttp 17024 27360 code 400, message Bad request version ('2')
+[ERROR] 2025-11-09 21:36:41,869 basehttp 17024 27360 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:36:41,869 basehttp 17024 29864 code 400, message Bad request version ('\x90°\x7fV\x9dõ,BÚN\x98z9a\x8c8\x88\x82)Ö\x13Çr6s="æ¾\x90R>C9\x003\x04ï\x04íªª\x00\x01\x00\x11ì\x04À^6-]ê\x1bgÀ·')
+[ERROR] 2025-11-09 21:36:41,870 basehttp 17024 29864 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:36:41,872 basehttp 17024 32072 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06')
+[ERROR] 2025-11-09 21:36:41,873 basehttp 17024 32072 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:36:41,873 basehttp 17024 11672 code 400, message Bad request version ('ÎM)')
+[ERROR] 2025-11-09 21:36:41,873 basehttp 17024 11672 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:38:24,160 autoreload 32560 7512 Watching for file changes with StatReloader
+[INFO] 2025-11-09 21:41:57,809 autoreload 15248 31944 Watching for file changes with StatReloader
+[INFO] 2025-11-09 21:42:13,328 basehttp 15248 32152 "GET / HTTP/1.1" 301 0
+[INFO] 2025-11-09 21:42:13,353 basehttp 15248 3892 code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S')
+[ERROR] 2025-11-09 21:42:13,360 basehttp 15248 3892 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:42:13,364 basehttp 15248 22396 code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93\x1a\x1a\x00\x00\x00')
+[ERROR] 2025-11-09 21:42:13,364 basehttp 15248 22396 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:42:22,526 basehttp 15248 23140 code 400, message Bad request version ('\x17P±p\x11^\x99I')
+[ERROR] 2025-11-09 21:42:22,526 basehttp 15248 23140 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:42:22,528 basehttp 15248 18492 code 400, message Bad request version ('0r\x90')
+[ERROR] 2025-11-09 21:42:22,528 basehttp 15248 18492 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:45:08,369 autoreload 15248 31944 C:\Users\Kenne\Documents\ALX\alx_travel_app_0x03\alx_travel_app\alx_travel_app\settings.py changed, reloading.
+[INFO] 2025-11-09 21:45:09,432 autoreload 29252 32556 Watching for file changes with StatReloader
+[INFO] 2025-11-09 21:45:17,085 autoreload 29252 32556 C:\Users\Kenne\Documents\ALX\alx_travel_app_0x03\alx_travel_app\alx_travel_app\settings.py changed, reloading.
+[INFO] 2025-11-09 21:45:18,031 autoreload 31508 12336 Watching for file changes with StatReloader
+[INFO] 2025-11-09 21:45:47,537 autoreload 31508 12336 C:\Users\Kenne\Documents\ALX\alx_travel_app_0x03\alx_travel_app\alx_travel_app\settings.py changed, reloading.
+[INFO] 2025-11-09 21:45:48,659 autoreload 3808 30852 Watching for file changes with StatReloader
+[INFO] 2025-11-09 21:46:01,945 autoreload 9128 29720 Watching for file changes with StatReloader
+[INFO] 2025-11-09 21:48:44,023 autoreload 28888 30160 Watching for file changes with StatReloader
+[INFO] 2025-11-09 21:48:58,435 basehttp 28888 5416 "GET /swagger/ HTTP/1.1" 301 0
+[INFO] 2025-11-09 21:48:58,444 basehttp 28888 29600 code 400, message Bad request version ('ëLÇÿÎ¹"\x81\x00')
+[ERROR] 2025-11-09 21:48:58,446 basehttp 28888 29600 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:48:58,452 basehttp 28888 988 code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93\x1a\x1a\x00\x00\x00-\x00\x02\x01\x01\x00')
+[ERROR] 2025-11-09 21:48:58,453 basehttp 28888 988 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:49:26,772 basehttp 28888 16352 code 400, message Bad request version ('\x9bhÀ\x15\x97¼W+k·}\x13\x8dëkm(twðÖ\x9bÆØ®êõI¯UPrÜ')
+[ERROR] 2025-11-09 21:49:26,778 basehttp 28888 16352 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:49:26,786 basehttp 28888 32624 code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[ERROR] 2025-11-09 21:49:26,787 basehttp 28888 32624 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:51:20,044 autoreload 30208 24664 Watching for file changes with StatReloader
+[INFO] 2025-11-09 21:54:35,032 autoreload 3808 30852 C:\Users\Kenne\Documents\ALX\alx_travel_app_0x03\alx_travel_app\alx_travel_app\settings.py changed, reloading.
+[INFO] 2025-11-09 21:54:35,821 autoreload 1328 7852 Watching for file changes with StatReloader
+[INFO] 2025-11-09 21:54:39,637 autoreload 15996 9012 Watching for file changes with StatReloader
+[INFO] 2025-11-09 21:54:50,149 basehttp 1328 2564 code 400, message Bad request version ('\x8eîkï¨eÛ÷¡¦©\x9f\x8fº]Z\x00')
+[ERROR] 2025-11-09 21:54:50,169 basehttp 1328 2564 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:54:50,170 basehttp 1328 20440 "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-11-09 21:54:50,173 basehttp 1328 29732 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03\x96\x17\x00\x82\x03\x04')
+[ERROR] 2025-11-09 21:54:50,174 basehttp 1328 29732 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:54:50,581 basehttp 1328 20440 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4170
+[WARNING] 2025-11-09 21:54:50,620 log 1328 20440 Not Found: /static/admin/css/base.css
+[WARNING] 2025-11-09 21:54:50,621 basehttp 1328 20440 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:54:50,625 log 1328 20440 Not Found: /static/admin/css/dark_mode.css
+[WARNING] 2025-11-09 21:54:50,626 basehttp 1328 20440 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:54:50,630 log 1328 21936 Not Found: /static/admin/js/theme.js
+[WARNING] 2025-11-09 21:54:50,632 log 1328 3884 Not Found: /static/admin/css/nav_sidebar.css
+[WARNING] 2025-11-09 21:54:50,634 log 1328 23452 Not Found: /static/admin/css/login.css
+[WARNING] 2025-11-09 21:54:50,636 log 1328 31728 Not Found: /static/admin/css/responsive.css
+[WARNING] 2025-11-09 21:54:50,636 basehttp 1328 21936 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:54:50,637 basehttp 1328 3884 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:54:50,638 basehttp 1328 31728 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:54:50,638 basehttp 1328 23452 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:54:50,642 log 1328 3884 Not Found: /static/admin/js/nav_sidebar.js
+[WARNING] 2025-11-09 21:54:50,642 basehttp 1328 3884 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:54:50,698 log 1328 3884 Not Found: /favicon.ico
+[WARNING] 2025-11-09 21:54:50,700 basehttp 1328 3884 "GET /favicon.ico HTTP/1.1" 404 179
+[INFO] 2025-11-09 21:54:55,315 basehttp 1328 3884 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4170
+[WARNING] 2025-11-09 21:54:55,345 log 1328 3884 Not Found: /static/admin/css/base.css
+[WARNING] 2025-11-09 21:54:55,346 basehttp 1328 3884 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:54:55,349 log 1328 3884 Not Found: /static/admin/css/dark_mode.css
+[WARNING] 2025-11-09 21:54:55,351 log 1328 23452 Not Found: /static/admin/css/nav_sidebar.css
+[WARNING] 2025-11-09 21:54:55,351 log 1328 21936 Not Found: /static/admin/css/login.css
+[WARNING] 2025-11-09 21:54:55,352 log 1328 20440 Not Found: /static/admin/css/responsive.css
+[WARNING] 2025-11-09 21:54:55,353 log 1328 31728 Not Found: /static/admin/js/theme.js
+[WARNING] 2025-11-09 21:54:55,355 basehttp 1328 23452 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:54:55,356 basehttp 1328 3884 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:54:55,362 basehttp 1328 21936 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:54:55,363 basehttp 1328 20440 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:54:55,366 basehttp 1328 31728 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:54:55,380 log 1328 31728 Not Found: /static/admin/js/nav_sidebar.js
+[WARNING] 2025-11-09 21:54:55,381 basehttp 1328 31728 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[INFO] 2025-11-09 21:55:06,875 basehttp 1328 31728 "GET /swagger HTTP/1.1" 301 0
+[INFO] 2025-11-09 21:55:06,929 basehttp 1328 20440 "GET /swagger/ HTTP/1.1" 200 2221
+[WARNING] 2025-11-09 21:55:06,954 log 1328 20440 Not Found: /static/drf-yasg/style.css
+[WARNING] 2025-11-09 21:55:06,955 basehttp 1328 20440 "GET /static/drf-yasg/style.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:55:06,961 log 1328 20440 Not Found: /static/drf-yasg/swagger-ui-dist/swagger-ui.css
+[WARNING] 2025-11-09 21:55:06,968 log 1328 21936 Not Found: /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js
+[WARNING] 2025-11-09 21:55:06,978 log 1328 3884 Not Found: /static/drf-yasg/insQ.min.js
+[WARNING] 2025-11-09 21:55:06,981 log 1328 23452 Not Found: /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js
+[WARNING] 2025-11-09 21:55:06,985 log 1328 15520 Not Found: /static/drf-yasg/immutable.min.js
+[WARNING] 2025-11-09 21:55:06,991 log 1328 32724 Not Found: /static/drf-yasg/swagger-ui-init.js
+[WARNING] 2025-11-09 21:55:06,991 basehttp 1328 21936 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:55:06,992 basehttp 1328 20440 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:55:06,992 basehttp 1328 3884 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:55:06,993 basehttp 1328 23452 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:55:06,996 basehttp 1328 32724 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:55:06,996 basehttp 1328 15520 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:55:07,008 log 1328 15520 Not Found: /static/drf-yasg/swagger-ui-dist/favicon-32x32.png
+[WARNING] 2025-11-09 21:55:07,009 basehttp 1328 15520 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:55:09,015 log 1328 15520 Not Found: /accounts/login/
+[WARNING] 2025-11-09 21:55:09,016 basehttp 1328 15520 "GET /accounts/login/?next=/swagger/ HTTP/1.1" 404 179
+[INFO] 2025-11-09 21:55:16,399 basehttp 1328 25692 code 400, message Bad request version ('û¼«\x1a')
+[ERROR] 2025-11-09 21:55:16,400 basehttp 1328 25692 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:55:16,402 basehttp 1328 2984 code 400, message Bad request version ('\x00u¤\x98»Hw\x99/,FÕr8uàJ')
+[ERROR] 2025-11-09 21:55:16,403 basehttp 1328 2984 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:55:29,571 basehttp 1328 32516 code 400, message Bad request version ('\x9dõ\x1bêë\x15\x92\x82&>\x08\x01')
+[ERROR] 2025-11-09 21:55:29,572 basehttp 1328 32516 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:55:29,575 basehttp 1328 10404 code 400, message Bad request version ('»ysÂÀ\x8eõ-\x88×')
+[ERROR] 2025-11-09 21:55:29,576 basehttp 1328 10404 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:55:37,746 basehttp 1328 30272 code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S')
+[ERROR] 2025-11-09 21:55:37,747 basehttp 1328 30272 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:55:37,749 basehttp 1328 22396 code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ºº\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[ERROR] 2025-11-09 21:55:37,749 basehttp 1328 22396 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:55:37,752 basehttp 1328 17928 code 400, message Bad request version ('ÄQ')
+[ERROR] 2025-11-09 21:55:37,752 basehttp 1328 17928 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:55:37,752 basehttp 1328 27200 code 400, message Bad request version ('OX("\x9a\x00')
+[ERROR] 2025-11-09 21:55:37,752 basehttp 1328 27200 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:55:37,755 basehttp 1328 31952 code 400, message Bad request version ('¼')
+[ERROR] 2025-11-09 21:55:37,757 basehttp 1328 31952 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:55:37,757 basehttp 1328 30832 code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[ERROR] 2025-11-09 21:55:37,758 basehttp 1328 30832 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:55:54,363 basehttp 1328 7348 code 400, message Bad request version ('Ù\x90y\x02PêFùá<2dÄány±\x8aO\x07j<\x9dBá\x00')
+[ERROR] 2025-11-09 21:55:54,364 basehttp 1328 7348 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:55:54,366 basehttp 1328 12988 code 400, message Bad request version ('Ñ\x84\x14P\x07"F÷¯í\x04}j7UH>%Ú\x8b;$6q\x87ýû')
+[ERROR] 2025-11-09 21:55:54,366 basehttp 1328 12988 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:03,285 basehttp 1328 22696 code 400, message Bad request version ('\x19w\x0f(¥\xadÇI(Öñ¬Èóx\x82\x9cJ\x7fé3yP\x89°\x03¶¸\x00¶sx')
+[ERROR] 2025-11-09 21:56:03,286 basehttp 1328 22696 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:03,292 basehttp 1328 25016 code 400, message Bad request version ('\x1a\x1a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sªª\x00\x00ÿ\x01\x00\x01\x00\x00\x17\x00\x00\x00')
+[ERROR] 2025-11-09 21:56:03,294 basehttp 1328 25016 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:03,325 basehttp 1328 25832 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x96\x8fÒ\x98çÁ\x88\x86\x04r\x96µ\xad5\x03#%Ú')
+[ERROR] 2025-11-09 21:56:03,326 basehttp 1328 25832 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:03,327 basehttp 1328 7344 code 400, message Bad request version ('V\x90\x17Ð\x99`Étpêv')
+[ERROR] 2025-11-09 21:56:03,328 basehttp 1328 7344 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:03,329 basehttp 1328 7844 code 400, message Bad request version ('wÖ;\x16Pâ´m\x8cÂ2æ#ì\x8a\x8cs')
+[ERROR] 2025-11-09 21:56:03,330 basehttp 1328 7844 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:03,330 basehttp 1328 25380 code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93zz\x00\x00\x00')
+[ERROR] 2025-11-09 21:56:03,331 basehttp 1328 25380 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:10,258 basehttp 1328 26556 code 400, message Bad request version ('¡8e÷\x9a')
+[ERROR] 2025-11-09 21:56:10,259 basehttp 1328 26556 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:10,262 basehttp 1328 12416 code 400, message Bad request version ('\x02h2\x08http/1.1\x00+\x00\x07\x06ÚÚ\x03\x04\x03\x03DÍ\x00\x05\x00\x03\x02h2\x00\x17\x00\x00\x00\x12\x00\x00\x00')
+[ERROR] 2025-11-09 21:56:10,263 basehttp 1328 12416 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:10,291 basehttp 1328 23004 code 400, message Bad request version ('\x17çÏíA\x13k4\x06\x04')
+[ERROR] 2025-11-09 21:56:10,295 basehttp 1328 23004 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:10,296 basehttp 1328 28208 code 400, message Bad request version ('¡\x8cåà°n5\x02\x83ô¨¹\x88\x8a¿´4"¯£YY\x8b')
+[ERROR] 2025-11-09 21:56:10,297 basehttp 1328 28208 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:10,302 basehttp 1328 3528 code 400, message Bad request version ('È~bÒ}HúÏ\x8ai\x07û\\ÏIY_')
+[ERROR] 2025-11-09 21:56:10,307 basehttp 1328 3528 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:10,311 basehttp 1328 7624 code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[ERROR] 2025-11-09 21:56:10,312 basehttp 1328 7624 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:17,252 basehttp 1328 31548 code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S\x9a\x9a\x00\x00ÿ\x01\x00\x01\x00\x00')
+[ERROR] 2025-11-09 21:56:17,253 basehttp 1328 31548 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:17,257 basehttp 1328 22016 code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93jj\x00\x00\x00')
+[ERROR] 2025-11-09 21:56:17,257 basehttp 1328 22016 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:17,286 basehttp 1328 31544 code 400, message Bad request version ('\x03©\x02Ùß|Î\x9aî´\x9c\x9a\x8d¹\x8bø±kwË\x08goæh6e\x06lGÒ}\x00')
+[ERROR] 2025-11-09 21:56:17,293 basehttp 1328 31544 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:17,293 basehttp 1328 20400 code 400, message Bad request version ('ãPmdåä\x9eõí\x10ßÑë¶VE\x80Æ·o¯y©\x9f\x90Ëù\x8cÀ\x10\x03¼\x86\x00\x05\x00\x05\x01\x00\x00\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00')
+[ERROR] 2025-11-09 21:56:17,296 basehttp 1328 20400 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:17,301 basehttp 1328 8216 code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06SÚÚ\x00\x00\x003\x04ï\x04í')
+[ERROR] 2025-11-09 21:56:17,302 basehttp 1328 8216 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:17,303 basehttp 1328 32608 code 400, message Bad request version ('*ñ6\x83\x88\x10cÜ\x801hÁ¹\x83ÊAfÔR=£Ïé\x17±\x04`´D\x94!dÃO[9§\x87D4¥\x88\x93')
+[ERROR] 2025-11-09 21:56:17,303 basehttp 1328 32608 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:25,459 autoreload 5132 26132 Watching for file changes with StatReloader
+[INFO] 2025-11-09 21:56:27,658 basehttp 1328 9128 code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063ÚÚ\x00\x00\x00')
+[ERROR] 2025-11-09 21:56:27,660 basehttp 1328 9128 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:27,665 basehttp 1328 7204 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03ËLu\x19U\x02\x04U%|1)Ôß²uÉ{4K\x9f\x86\x08m·B\x0f5')
+[ERROR] 2025-11-09 21:56:27,665 basehttp 1328 7204 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:27,679 basehttp 1328 10404 code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063')
+[ERROR] 2025-11-09 21:56:27,680 basehttp 1328 10404 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:27,680 basehttp 1328 32596 code 400, message Bad request version ('\x00\x02\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+[ERROR] 2025-11-09 21:56:27,681 basehttp 1328 32596 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:27,683 basehttp 1328 32448 code 400, message Bad request version ('\\¯\x0eãÀNÆ«ÿémë&')
+[ERROR] 2025-11-09 21:56:27,685 basehttp 1328 32448 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:27,686 basehttp 1328 3816 code 400, message Bad request version ('\xadõ')
+[ERROR] 2025-11-09 21:56:27,687 basehttp 1328 3816 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:30,761 basehttp 1328 29672 code 400, message Bad request version ('I_?GÏ\x0e\x00')
+[ERROR] 2025-11-09 21:56:30,762 basehttp 1328 29672 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:30,764 basehttp 1328 29736 code 400, message Bad request version ('S¦WÈÐ*ãF@ò#7ÿ\x0eæ\x9dRú,`îYÇ\x15\x9e,Éÿ\x07£rX°Ç\x9d\x1bn\x172')
+[ERROR] 2025-11-09 21:56:30,764 basehttp 1328 29736 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:30,778 basehttp 1328 5496 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+[ERROR] 2025-11-09 21:56:30,778 basehttp 1328 5496 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:30,779 basehttp 1328 29072 code 400, message Bad request version (">ÈÕ.y\x17FÊ÷\x183BÇ\x98\x12ªÏõ\x02GX\x84Áó6fÅ(Ê&/\x94»¤*æ\x8aà°wW\x9bs®KF¢\x0205W`¶ñeÁ\x00{´õOr\x90'ÐJ\x81")
+[ERROR] 2025-11-09 21:56:30,779 basehttp 1328 29072 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:30,781 basehttp 1328 23820 code 400, message Bad request version ('\x18°3õ8""xö\x95³\x10Ð')
+[INFO] 2025-11-09 21:56:30,781 basehttp 1328 13936 code 400, message Bad request version ('ä½$R£k¼\x82ª\x88\x12\x8dÂ2R]=\x96')
+[ERROR] 2025-11-09 21:56:30,781 basehttp 1328 23820 You're accessing the development server over HTTPS, but it only supports HTTP.
+[ERROR] 2025-11-09 21:56:30,781 basehttp 1328 13936 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:36,429 basehttp 1328 15988 code 400, message Bad request version ('\x8aÄa\x8bäeé^·§\x80å5£\x83¿\x8dÞ×à\x9eõÌ\x9bGu\x87üD\x10\\\x7f\x00°Ê±ÛÓ')
+[ERROR] 2025-11-09 21:56:36,430 basehttp 1328 15988 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:36,433 basehttp 1328 27536 code 400, message Bad request version ('\x02h2\x08http/1.1ÿ\x01\x00\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+[ERROR] 2025-11-09 21:56:36,433 basehttp 1328 27536 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:36,465 basehttp 1328 31172 code 400, message Bad request version ('ÚºåH\x00°ë\x9a`k{pú\x81\x1aW¨n¬\x82N7=4%xlr|g!W\x9dÖ=Úáb4Æ\x14')
+[ERROR] 2025-11-09 21:56:36,466 basehttp 1328 31172 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:36,466 basehttp 1328 30300 code 400, message Bad request version ('fx×L|æ\x91½Èd')
+[ERROR] 2025-11-09 21:56:36,470 basehttp 1328 30300 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:36,473 basehttp 1328 22560 code 400, message Bad request version ('\x02h2\x08http/1.1\x003\x04ï\x04íêê\x00\x01\x00\x11ì\x04ÀýFÆ-ªFjf\x9cwÄB¿t:t')
+[ERROR] 2025-11-09 21:56:36,477 basehttp 1328 22560 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:36,478 basehttp 1328 14308 code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ÚÚ\x00\x00\x00')
+[ERROR] 2025-11-09 21:56:36,479 basehttp 1328 14308 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:47,724 basehttp 1328 23396 code 400, message Bad request version ('\x19^ü\x94')
+[ERROR] 2025-11-09 21:56:47,725 basehttp 1328 23396 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:47,727 basehttp 1328 28708 code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93JJ\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00#\x00\x00\x00')
+[ERROR] 2025-11-09 21:56:47,728 basehttp 1328 28708 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:53,281 basehttp 1328 2464 code 400, message Bad request version ('\x00\x02\x01\x00\x00+\x00\x07\x06\x9a\x9a\x03\x04\x03\x03\x00')
+[ERROR] 2025-11-09 21:56:53,282 basehttp 1328 2464 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:56:53,283 basehttp 1328 27204 code 400, message Bad request version ('}6\x8d:Òg\x05\x8b\x7fzÐ¤\x94\x83\x86Z\x03\x07\x87bmÙçÈ\x1a6')
+[ERROR] 2025-11-09 21:56:53,284 basehttp 1328 27204 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:57:06,351 basehttp 1328 28180 "GET /admin HTTP/1.1" 301 0
+[INFO] 2025-11-09 21:57:06,363 basehttp 1328 30068 "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-11-09 21:57:06,400 basehttp 1328 30068 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4170
+[WARNING] 2025-11-09 21:57:06,562 log 1328 30068 Not Found: /static/admin/css/base.css
+[WARNING] 2025-11-09 21:57:06,563 basehttp 1328 30068 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:06,568 log 1328 9768 Not Found: /static/admin/css/dark_mode.css
+[WARNING] 2025-11-09 21:57:06,572 basehttp 1328 9768 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:06,579 log 1328 18724 Not Found: /static/admin/css/nav_sidebar.css
+[WARNING] 2025-11-09 21:57:06,581 log 1328 18032 Not Found: /static/admin/css/login.css
+[WARNING] 2025-11-09 21:57:06,584 log 1328 31728 Not Found: /static/admin/css/responsive.css
+[WARNING] 2025-11-09 21:57:06,585 basehttp 1328 18032 "GET /static/admin/css/login.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:06,586 basehttp 1328 18724 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:06,586 basehttp 1328 31728 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:06,598 log 1328 24352 Not Found: /static/admin/js/theme.js
+[WARNING] 2025-11-09 21:57:06,599 basehttp 1328 24352 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:06,746 log 1328 24352 Not Found: /static/admin/js/nav_sidebar.js
+[WARNING] 2025-11-09 21:57:06,749 basehttp 1328 24352 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:07,145 log 1328 24352 Not Found: /favicon.ico
+[WARNING] 2025-11-09 21:57:07,163 basehttp 1328 24352 "GET /favicon.ico HTTP/1.1" 404 179
+[INFO] 2025-11-09 21:57:20,658 basehttp 1328 24352 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-11-09 21:57:20,712 basehttp 1328 24352 "GET /admin/ HTTP/1.1" 200 5536
+[WARNING] 2025-11-09 21:57:20,879 log 1328 24352 Not Found: /static/admin/css/base.css
+[WARNING] 2025-11-09 21:57:20,881 basehttp 1328 24352 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:20,893 log 1328 31728 Not Found: /static/admin/css/dark_mode.css
+[WARNING] 2025-11-09 21:57:20,894 basehttp 1328 31728 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:20,898 log 1328 18724 Not Found: /static/admin/css/nav_sidebar.css
+[WARNING] 2025-11-09 21:57:20,901 log 1328 9768 Not Found: /static/admin/css/dashboard.css
+[WARNING] 2025-11-09 21:57:20,903 log 1328 18032 Not Found: /static/admin/js/theme.js
+[WARNING] 2025-11-09 21:57:20,905 log 1328 30068 Not Found: /static/admin/css/responsive.css
+[WARNING] 2025-11-09 21:57:20,910 basehttp 1328 18724 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:20,911 basehttp 1328 18032 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:20,912 basehttp 1328 9768 "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:20,919 basehttp 1328 30068 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:20,932 log 1328 30068 Not Found: /static/admin/js/nav_sidebar.js
+[WARNING] 2025-11-09 21:57:20,933 basehttp 1328 30068 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[INFO] 2025-11-09 21:57:34,506 basehttp 1328 30068 "GET /admin/ HTTP/1.1" 200 5536
+[WARNING] 2025-11-09 21:57:34,582 log 1328 30068 Not Found: /static/admin/css/base.css
+[WARNING] 2025-11-09 21:57:34,606 basehttp 1328 30068 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:34,610 log 1328 18032 Not Found: /static/admin/js/theme.js
+[WARNING] 2025-11-09 21:57:34,611 log 1328 9768 Not Found: /static/admin/css/dark_mode.css
+[WARNING] 2025-11-09 21:57:34,613 log 1328 18724 Not Found: /static/admin/css/nav_sidebar.css
+[WARNING] 2025-11-09 21:57:34,615 log 1328 24352 Not Found: /static/admin/css/responsive.css
+[WARNING] 2025-11-09 21:57:34,616 basehttp 1328 18724 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:34,615 basehttp 1328 18032 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:34,615 basehttp 1328 9768 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:34,615 log 1328 31728 Not Found: /static/admin/css/dashboard.css
+[WARNING] 2025-11-09 21:57:34,618 basehttp 1328 24352 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:34,623 basehttp 1328 31728 "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:34,637 log 1328 31728 Not Found: /static/admin/js/nav_sidebar.js
+[WARNING] 2025-11-09 21:57:34,639 basehttp 1328 31728 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[INFO] 2025-11-09 21:57:43,332 basehttp 1328 31728 "GET /admin/ HTTP/1.1" 200 5536
+[INFO] 2025-11-09 21:57:51,278 basehttp 1328 31728 "GET /swagger HTTP/1.1" 301 0
+[INFO] 2025-11-09 21:57:51,298 basehttp 1328 24352 "GET /swagger/ HTTP/1.1" 200 2484
+[WARNING] 2025-11-09 21:57:51,424 log 1328 24352 Not Found: /static/drf-yasg/style.css
+[WARNING] 2025-11-09 21:57:51,425 basehttp 1328 24352 "GET /static/drf-yasg/style.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:51,431 log 1328 18724 Not Found: /static/drf-yasg/swagger-ui-dist/swagger-ui.css
+[WARNING] 2025-11-09 21:57:51,432 log 1328 9768 Not Found: /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js
+[WARNING] 2025-11-09 21:57:51,433 log 1328 30068 Not Found: /static/drf-yasg/insQ.min.js
+[WARNING] 2025-11-09 21:57:51,433 log 1328 18032 Not Found: /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js
+[WARNING] 2025-11-09 21:57:51,436 log 1328 4892 Not Found: /static/drf-yasg/immutable.min.js
+[WARNING] 2025-11-09 21:57:51,436 basehttp 1328 18724 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:51,436 basehttp 1328 9768 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:51,436 basehttp 1328 30068 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:51,437 basehttp 1328 18032 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:51,438 basehttp 1328 4892 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:51,450 log 1328 24352 Not Found: /static/drf-yasg/swagger-ui-init.js
+[WARNING] 2025-11-09 21:57:51,471 basehttp 1328 24352 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:51,481 log 1328 24352 Not Found: /static/drf-yasg/swagger-ui-dist/favicon-32x32.png
+[WARNING] 2025-11-09 21:57:51,482 basehttp 1328 24352 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:57:51,669 log 1328 24352 Not Found: /static/drf-yasg/swagger-ui-dist/favicon-32x32.png
+[WARNING] 2025-11-09 21:57:51,670 basehttp 1328 24352 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 404 179
+[INFO] 2025-11-09 21:58:18,460 basehttp 1328 24352 "GET /admin/ HTTP/1.1" 200 5536
+[WARNING] 2025-11-09 21:58:18,580 log 1328 24352 Not Found: /static/admin/css/base.css
+[WARNING] 2025-11-09 21:58:18,582 log 1328 4892 Not Found: /static/admin/css/dark_mode.css
+[WARNING] 2025-11-09 21:58:18,584 log 1328 18032 Not Found: /static/admin/js/theme.js
+[WARNING] 2025-11-09 21:58:18,585 log 1328 30068 Not Found: /static/admin/css/nav_sidebar.css
+[WARNING] 2025-11-09 21:58:18,586 log 1328 9768 Not Found: /static/admin/css/dashboard.css
+[WARNING] 2025-11-09 21:58:18,589 log 1328 18724 Not Found: /static/admin/css/responsive.css
+[WARNING] 2025-11-09 21:58:18,596 basehttp 1328 4892 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:58:18,603 basehttp 1328 24352 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:58:18,608 basehttp 1328 18032 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:58:18,610 basehttp 1328 30068 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:58:18,612 basehttp 1328 9768 "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:58:18,618 basehttp 1328 18724 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:58:18,664 log 1328 18724 Not Found: /static/admin/js/nav_sidebar.js
+[WARNING] 2025-11-09 21:58:18,665 basehttp 1328 18724 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[INFO] 2025-11-09 21:58:26,168 basehttp 1328 23428 code 400, message Bad request version ('°G\x07ä¯q')
+[ERROR] 2025-11-09 21:58:26,169 basehttp 1328 23428 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:58:26,170 basehttp 1328 22320 code 400, message Bad request version ('<ÙN9l"00\x18ºtÂ')
+[ERROR] 2025-11-09 21:58:26,171 basehttp 1328 22320 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:58:34,280 basehttp 1328 32728 code 400, message Bad request version ('°m\x81òúLñ¹KAµ~»xñ^ÑVÛ[fu\x00')
+[ERROR] 2025-11-09 21:58:34,281 basehttp 1328 32728 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:58:34,283 basehttp 1328 31268 code 400, message Bad request version ('¶u\x18\x8f¥\x10[lè\x8a\x13\x04%#(ãòÀÔ.\x03,ÞxáÔ3\x12þK\x14¿áÏhfqýÕ\x04L_!\x95úã\x11h')
+[ERROR] 2025-11-09 21:58:34,284 basehttp 1328 31268 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 21:58:41,957 basehttp 1328 18724 "GET /admin/ HTTP/1.1" 200 5536
+[WARNING] 2025-11-09 21:58:42,064 log 1328 18724 Not Found: /static/admin/css/base.css
+[WARNING] 2025-11-09 21:58:42,065 basehttp 1328 18724 "GET /static/admin/css/base.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:58:42,074 log 1328 9768 Not Found: /static/admin/css/dark_mode.css
+[WARNING] 2025-11-09 21:58:42,091 log 1328 24352 Not Found: /static/admin/css/responsive.css
+[WARNING] 2025-11-09 21:58:42,093 log 1328 30068 Not Found: /static/admin/js/theme.js
+[WARNING] 2025-11-09 21:58:42,094 log 1328 18032 Not Found: /static/admin/css/nav_sidebar.css
+[WARNING] 2025-11-09 21:58:42,095 log 1328 18724 Not Found: /static/admin/css/dashboard.css
+[WARNING] 2025-11-09 21:58:42,097 basehttp 1328 24352 "GET /static/admin/css/responsive.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:58:42,098 basehttp 1328 9768 "GET /static/admin/css/dark_mode.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:58:42,101 basehttp 1328 30068 "GET /static/admin/js/theme.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:58:42,102 basehttp 1328 18032 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:58:42,103 basehttp 1328 18724 "GET /static/admin/css/dashboard.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:58:42,238 log 1328 18724 Not Found: /static/admin/js/nav_sidebar.js
+[WARNING] 2025-11-09 21:58:42,239 basehttp 1328 18724 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 404 179
+[INFO] 2025-11-09 21:59:35,021 basehttp 1328 18724 "GET /redoc/ HTTP/1.1" 200 964
+[WARNING] 2025-11-09 21:59:35,157 log 1328 18724 Not Found: /static/drf-yasg/style.css
+[WARNING] 2025-11-09 21:59:35,159 log 1328 18032 Not Found: /static/drf-yasg/redoc-init.js
+[WARNING] 2025-11-09 21:59:35,162 log 1328 30068 Not Found: /static/drf-yasg/insQ.min.js
+[WARNING] 2025-11-09 21:59:35,164 log 1328 9768 Not Found: /static/drf-yasg/redoc/redoc.min.js
+[WARNING] 2025-11-09 21:59:35,165 basehttp 1328 18724 "GET /static/drf-yasg/style.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:59:35,178 basehttp 1328 18032 "GET /static/drf-yasg/redoc-init.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:59:35,181 basehttp 1328 30068 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:59:35,181 basehttp 1328 9768 "GET /static/drf-yasg/redoc/redoc.min.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:59:35,268 log 1328 9768 Not Found: /static/drf-yasg/redoc/redoc-logo.png
+[WARNING] 2025-11-09 21:59:35,270 basehttp 1328 9768 "GET /static/drf-yasg/redoc/redoc-logo.png HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:59:35,415 log 1328 9768 Not Found: /static/drf-yasg/redoc/redoc-logo.png
+[WARNING] 2025-11-09 21:59:35,416 basehttp 1328 9768 "GET /static/drf-yasg/redoc/redoc-logo.png HTTP/1.1" 404 179
+[INFO] 2025-11-09 21:59:44,514 basehttp 1328 30664 "GET /redoc/ HTTP/1.1" 200 964
+[WARNING] 2025-11-09 21:59:44,781 log 1328 30664 Not Found: /static/drf-yasg/style.css
+[WARNING] 2025-11-09 21:59:44,783 log 1328 26796 Not Found: /static/drf-yasg/insQ.min.js
+[WARNING] 2025-11-09 21:59:44,789 log 1328 12960 Not Found: /static/drf-yasg/redoc-init.js
+[WARNING] 2025-11-09 21:59:44,792 log 1328 2984 Not Found: /static/drf-yasg/redoc/redoc.min.js
+[WARNING] 2025-11-09 21:59:44,798 basehttp 1328 30664 "GET /static/drf-yasg/style.css HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:59:44,799 basehttp 1328 2984 "GET /static/drf-yasg/redoc/redoc.min.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:59:44,799 basehttp 1328 12960 "GET /static/drf-yasg/redoc-init.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:59:44,800 basehttp 1328 26796 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 404 179
+[WARNING] 2025-11-09 21:59:44,861 log 1328 26796 Not Found: /static/drf-yasg/redoc/redoc-logo.png
+[WARNING] 2025-11-09 21:59:44,864 basehttp 1328 26796 "GET /static/drf-yasg/redoc/redoc-logo.png HTTP/1.1" 404 179
+[INFO] 2025-11-09 22:00:18,839 autoreload 1328 7852 C:\Users\Kenne\Documents\ALX\alx_travel_app_0x03\alx_travel_app\alx_travel_app\settings.py changed, reloading.
+[INFO] 2025-11-09 22:00:19,779 autoreload 26440 30716 Watching for file changes with StatReloader
+[INFO] 2025-11-09 22:03:51,975 autoreload 26440 30716 C:\Users\Kenne\Documents\ALX\alx_travel_app_0x03\alx_travel_app\alx_travel_app\settings.py changed, reloading.
+[INFO] 2025-11-09 22:03:53,111 autoreload 32576 27056 Watching for file changes with StatReloader
+[INFO] 2025-11-09 22:03:56,231 autoreload 8692 22720 Watching for file changes with StatReloader
+[INFO] 2025-11-09 22:04:04,947 basehttp 32576 31812 "GET /admin HTTP/1.1" 301 0
+[INFO] 2025-11-09 22:04:04,965 basehttp 32576 30580 "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-11-09 22:04:05,122 basehttp 32576 30580 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4170
+[INFO] 2025-11-09 22:04:06,121 basehttp 32576 29844 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+[INFO] 2025-11-09 22:04:06,149 basehttp 32576 30580 "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+[INFO] 2025-11-09 22:04:06,195 basehttp 32576 27536 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+[INFO] 2025-11-09 22:04:06,231 basehttp 32576 29884 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[INFO] 2025-11-09 22:04:06,253 basehttp 32576 29120 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+[INFO] 2025-11-09 22:04:06,276 basehttp 32576 27588 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+[INFO] 2025-11-09 22:04:06,278 basehttp 32576 27536 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[WARNING] 2025-11-09 22:04:06,435 log 32576 27536 Not Found: /favicon.ico
+[WARNING] 2025-11-09 22:04:06,439 basehttp 32576 27536 "GET /favicon.ico HTTP/1.1" 404 2913
+[INFO] 2025-11-09 22:04:25,427 basehttp 32576 27536 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4355
+[INFO] 2025-11-09 22:04:36,858 basehttp 32576 27536 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-11-09 22:04:36,876 basehttp 32576 27536 "GET /admin/ HTTP/1.1" 200 5536
+[INFO] 2025-11-09 22:04:36,937 basehttp 32576 27536 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+[INFO] 2025-11-09 22:04:36,985 basehttp 32576 27536 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[INFO] 2025-11-09 22:04:36,985 basehttp 32576 27588 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[INFO] 2025-11-09 22:06:02,491 basehttp 32576 27588 "GET /swagger HTTP/1.1" 301 0
+[INFO] 2025-11-09 22:06:02,520 basehttp 32576 27536 "GET /swagger/ HTTP/1.1" 200 2484
+[INFO] 2025-11-09 22:06:02,586 basehttp 32576 27536 "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+[INFO] 2025-11-09 22:06:02,654 basehttp 32576 29120 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+[INFO] 2025-11-09 22:06:02,679 basehttp 32576 27536 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+[INFO] 2025-11-09 22:06:02,740 basehttp 32576 29884 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+[INFO] 2025-11-09 22:06:02,749 basehttp 32576 29844 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+[INFO] 2025-11-09 22:06:02,838 basehttp 32576 23192 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+[INFO] 2025-11-09 22:06:02,905 basehttp 32576 30580 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+[INFO] 2025-11-09 22:06:03,496 basehttp 32576 23192 "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+[INFO] 2025-11-09 22:06:03,613 basehttp 32576 30580 "GET /swagger/?format=openapi HTTP/1.1" 200 112358
+[INFO] 2025-11-09 22:06:24,527 basehttp 32576 29748 code 400, message Bad request version ('\x03à.\x8d\x16\x9aC,¸\x00>1ºT8KXÉÊÝ+\x19ùß\x06C\x93´Tî}È~\xad\x14\x10cËú¶Äß+\x9aÉ')
+[ERROR] 2025-11-09 22:06:24,528 basehttp 32576 29748 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:06:24,531 basehttp 32576 30144 code 400, message Bad request version ('ÊÊ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s')
+[ERROR] 2025-11-09 22:06:24,532 basehttp 32576 30144 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:06:40,161 basehttp 32576 7500 code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sÊÊ\x00\x00\x00\x17\x00\x00\x00')
+[ERROR] 2025-11-09 22:06:40,161 basehttp 32576 7500 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:06:40,164 basehttp 32576 1224 code 400, message Bad request version ('\x1b¨Ò66D"8\x8b¡\x0e')
+[ERROR] 2025-11-09 22:06:40,164 basehttp 32576 1224 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:06:40,203 basehttp 32576 29012 code 400, message Bad request version ('a¹å\x11TðiK\x9d¤\x87îá[\x93\x142Öª\x1byº\x9a\x00')
+[INFO] 2025-11-09 22:06:40,205 basehttp 32576 14444 code 400, message Bad request version ('è\x86Q©ä\x08\x8d\x15Ä|GGP')
+[ERROR] 2025-11-09 22:06:40,208 basehttp 32576 29012 You're accessing the development server over HTTPS, but it only supports HTTP.
+[ERROR] 2025-11-09 22:06:40,209 basehttp 32576 14444 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:06:40,212 basehttp 32576 31592 code 400, message Bad request version ('8R±W|:\x17;\x90By')
+[INFO] 2025-11-09 22:06:40,214 basehttp 32576 32340 code 400, message Bad request version ("\x08\x01ÒZõ2\x81\x91Q·ïå\x9dÙ)\x83þÞ\x1a\x0e[ù'ÙkÅ}\x112\x1aý&º\x90XÏ\x04h©F\x94ØÍp\\\x9e=«¯VÐDÍ\x00\x05\x00\x03\x02h2\x00\x12\x00\x00\x00#\x00\x00\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00")
+[ERROR] 2025-11-09 22:06:40,215 basehttp 32576 31592 You're accessing the development server over HTTPS, but it only supports HTTP.
+[ERROR] 2025-11-09 22:06:40,215 basehttp 32576 32340 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:08,222 basehttp 32576 27504 code 400, message Bad request syntax ('\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03¯ÝìüaÖ\x8e\x1b#\x19\x9a\x06f}')
+[ERROR] 2025-11-09 22:07:08,223 basehttp 32576 27504 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:08,226 basehttp 32576 31992 code 400, message Bad request syntax ('\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03>\x9d^¨¦')
+[ERROR] 2025-11-09 22:07:08,226 basehttp 32576 31992 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:08,254 basehttp 32576 31148 code 400, message Bad request version ('\x8c')
+[ERROR] 2025-11-09 22:07:08,256 basehttp 32576 31148 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:08,260 basehttp 32576 4428 code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S')
+[INFO] 2025-11-09 22:07:08,264 basehttp 32576 32016 code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s')
+[ERROR] 2025-11-09 22:07:08,264 basehttp 32576 4428 You're accessing the development server over HTTPS, but it only supports HTTP.
+[ERROR] 2025-11-09 22:07:08,265 basehttp 32576 32016 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:08,270 basehttp 32576 29736 code 400, message Bad request version ('\x8bLú\'Ãx³K\'V5"!/÷\x9a\x86§\x9bXØ\\\x9f®R51+0')
+[ERROR] 2025-11-09 22:07:08,270 basehttp 32576 29736 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:18,002 basehttp 32576 3008 code 400, message Bad request version ("£Øú+h\x84U:Ã'ö\x04vµ×§Dá:\x00")
+[ERROR] 2025-11-09 22:07:18,003 basehttp 32576 3008 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:18,006 basehttp 32576 10996 code 400, message Bad request version ('Ù+Ë¹Èòw\x05D}[\x00')
+[ERROR] 2025-11-09 22:07:18,006 basehttp 32576 10996 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:18,008 basehttp 32576 30208 code 400, message Bad request version ('êê\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063ÊÊ\x00\x00\x00')
+[ERROR] 2025-11-09 22:07:18,009 basehttp 32576 30208 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:18,012 basehttp 32576 31768 code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063úú\x00\x00\x00')
+[ERROR] 2025-11-09 22:07:18,013 basehttp 32576 31768 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:26,812 basehttp 32576 16352 code 400, message Bad request version ('9ýÃ®Y\x11QVÙ\x01Ú1$\x97ê}.]\x95ú')
+[ERROR] 2025-11-09 22:07:26,813 basehttp 32576 16352 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:26,815 basehttp 32576 32040 code 400, message Bad request version ('jj\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063úú\x00\x00\x003\x04ï\x04í')
+[ERROR] 2025-11-09 22:07:26,823 basehttp 32576 32040 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:34,129 basehttp 32576 29436 code 400, message Bad request version ('p;j·6')
+[ERROR] 2025-11-09 22:07:34,130 basehttp 32576 29436 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:34,132 basehttp 32576 18404 code 400, message Bad request version ('ZZ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063ªª\x00\x00\x00+\x00\x07\x06ÚÚ\x03\x04\x03\x03\x00')
+[ERROR] 2025-11-09 22:07:34,132 basehttp 32576 18404 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:34,136 basehttp 32576 25232 code 400, message Bad request version ('Q')
+[ERROR] 2025-11-09 22:07:34,137 basehttp 32576 25232 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:34,140 basehttp 32576 7556 code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+[ERROR] 2025-11-09 22:07:34,141 basehttp 32576 7556 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:34,142 basehttp 32576 24388 code 400, message Bad request version ('{M5\x00')
+[ERROR] 2025-11-09 22:07:34,143 basehttp 32576 24388 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:34,145 basehttp 32576 14308 code 400, message Bad request version ('9Ò+~Ç\x9c\xad4R~\x04\x04s\x04¾Ô\x8c\x00G\x81L,')
+[ERROR] 2025-11-09 22:07:34,146 basehttp 32576 14308 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:42,481 basehttp 32576 29164 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x032Ó%\x06û©hÌß\x9cF\x12Ü5þ')
+[ERROR] 2025-11-09 22:07:42,482 basehttp 32576 29164 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:42,484 basehttp 32576 5868 code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063')
+[ERROR] 2025-11-09 22:07:42,484 basehttp 32576 5868 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:42,487 basehttp 32576 31012 code 400, message Bad request version ('?!p\x01\x01iî4Kíð')
+[INFO] 2025-11-09 22:07:42,489 basehttp 32576 27688 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00')
+[ERROR] 2025-11-09 22:07:42,491 basehttp 32576 31012 You're accessing the development server over HTTPS, but it only supports HTTP.
+[ERROR] 2025-11-09 22:07:42,495 basehttp 32576 27688 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:07:42,502 basehttp 32576 28472 code 400, message Bad request version ('\x82\x88\x19,¡KMª\x18;\x8aG\x08¥\x98/fA\x02\x10RH')
+[INFO] 2025-11-09 22:07:42,502 basehttp 32576 32320 code 400, message Bad request version ('ª\x11!`úº-ÊA)P¸CóL|\x12´ú')
+[ERROR] 2025-11-09 22:07:42,503 basehttp 32576 28472 You're accessing the development server over HTTPS, but it only supports HTTP.
+[ERROR] 2025-11-09 22:07:42,504 basehttp 32576 32320 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:09,425 basehttp 32576 5084 code 400, message Bad request syntax ('\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03\x08·ñÜ¢¾jòBfú[')
+[ERROR] 2025-11-09 22:08:09,425 basehttp 32576 5084 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:09,428 basehttp 32576 29624 code 400, message Bad request version ('\x00\x02\x01\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+[ERROR] 2025-11-09 22:08:09,429 basehttp 32576 29624 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:09,456 basehttp 32576 20240 code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sªª\x00\x00\x00')
+[ERROR] 2025-11-09 22:08:09,461 basehttp 32576 20240 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:09,462 basehttp 32576 20352 code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sªª\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[ERROR] 2025-11-09 22:08:09,467 basehttp 32576 20352 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:09,474 basehttp 32576 9148 code 400, message Bad request version ('×mzzõ\x9f®\x17Ï\x8aÒ×!')
+[INFO] 2025-11-09 22:08:09,475 basehttp 32576 27204 code 400, message Bad request version ('\x99Ø¨Dæo\x0eóX´Å¢ÎË\x00')
+[ERROR] 2025-11-09 22:08:09,475 basehttp 32576 9148 You're accessing the development server over HTTPS, but it only supports HTTP.
+[ERROR] 2025-11-09 22:08:09,476 basehttp 32576 27204 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:16,027 basehttp 32576 28472 code 400, message Bad request version ('L\x1a\x8f»E')
+[ERROR] 2025-11-09 22:08:16,028 basehttp 32576 28472 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:16,030 basehttp 32576 31560 code 400, message Bad request version ('\x95d½\x17')
+[ERROR] 2025-11-09 22:08:16,031 basehttp 32576 31560 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:16,055 basehttp 32576 30268 code 400, message Bad request version ('\x02h2\x08http/1.1\x00+\x00\x07\x06\x1a\x1a\x03\x04\x03\x03\x00')
+[ERROR] 2025-11-09 22:08:16,059 basehttp 32576 30268 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:16,061 basehttp 32576 25436 code 400, message Bad request version ('»$*ÄÑ÷ews~V\x96.ZÕºïäQ¬ñ\x13ðé>\x1aâ\x98¤Ë\x81]¸§uª\x15d»oìw\x9e')
+[ERROR] 2025-11-09 22:08:16,066 basehttp 32576 25436 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:16,068 basehttp 32576 31848 code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ºº\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00-\x00\x02\x01\x01\x00+\x00\x07\x06')
+[ERROR] 2025-11-09 22:08:16,072 basehttp 32576 31848 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:16,073 basehttp 32576 25644 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06À\x01\x00\x06¼\x03\x03\x93\x9e¤ä3«ò5æÆµP7\x02\x81ñ³i|ª,ø¸¯\x81HA\x19\x91e]²')
+[ERROR] 2025-11-09 22:08:16,074 basehttp 32576 25644 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:28,143 autoreload 22676 3528 Watching for file changes with StatReloader
+[INFO] 2025-11-09 22:08:32,473 basehttp 32576 31476 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x1b\x00\x03\x02\x00\x02\x00-\x00\x02\x01\x01DÍ\x00\x05\x00\x03\x02h2\x00\x12\x00\x00\x003\x04ï\x04íJJ\x00\x01\x00\x11ì\x04À')
+[ERROR] 2025-11-09 22:08:32,474 basehttp 32576 31476 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:32,476 basehttp 32576 5488 code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03\x95oL[eÄ¶4\x8a°÷\x8cv£\x86')
+[ERROR] 2025-11-09 22:08:32,476 basehttp 32576 5488 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:32,491 basehttp 32576 7916 code 400, message Bad request version ('\x9e¨\x06±Ô\x95\x99Ö«hl(\x9añ')
+[INFO] 2025-11-09 22:08:32,497 basehttp 32576 8220 code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[ERROR] 2025-11-09 22:08:32,499 basehttp 32576 7916 You're accessing the development server over HTTPS, but it only supports HTTP.
+[ERROR] 2025-11-09 22:08:32,503 basehttp 32576 8220 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:32,511 basehttp 32576 31764 code 400, message Bad request version ('\x82\x9aÑ\x00')
+[ERROR] 2025-11-09 22:08:32,512 basehttp 32576 31764 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:32,513 basehttp 32576 6664 code 400, message Bad request version ('2')
+[ERROR] 2025-11-09 22:08:32,513 basehttp 32576 6664 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:37,988 basehttp 32576 15544 code 400, message Bad request version ('¸ä\x10\x8d\x1aÊïQiÙj')
+[ERROR] 2025-11-09 22:08:37,989 basehttp 32576 15544 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:37,994 basehttp 32576 29928 code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[ERROR] 2025-11-09 22:08:37,994 basehttp 32576 29928 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:38,011 basehttp 32576 27688 code 400, message Bad request version ('\x02h2\x08http/1.1\x00#\x00\x00\x00-\x00\x02\x01\x01\x00\x1b\x00\x03\x02\x00\x02\x00')
+[ERROR] 2025-11-09 22:08:38,012 basehttp 32576 27688 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:38,013 basehttp 32576 9184 code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ªª\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x17\x00\x00\x00')
+[ERROR] 2025-11-09 22:08:38,014 basehttp 32576 9184 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:38,015 basehttp 32576 32528 code 400, message Bad request version ('B')
+[ERROR] 2025-11-09 22:08:38,016 basehttp 32576 32528 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:38,017 basehttp 32576 32000 code 400, message Bad request version ('³H1¶\x01òpKTÙÞT9¢+\x00')
+[ERROR] 2025-11-09 22:08:38,017 basehttp 32576 32000 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:54,055 basehttp 32576 1940 code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+[ERROR] 2025-11-09 22:08:54,056 basehttp 32576 1940 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:54,058 basehttp 32576 29752 code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063êê\x00\x00\x00')
+[ERROR] 2025-11-09 22:08:54,059 basehttp 32576 29752 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:54,093 basehttp 32576 32088 code 400, message Bad request version ('5o,W\x81$ÃmQøw\x99')
+[ERROR] 2025-11-09 22:08:54,108 basehttp 32576 32088 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:54,109 basehttp 32576 21852 code 400, message Bad request version ('úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Sêê\x00\x00\x00\x12\x00\x00\x00#\x00\x00ÿ\x01\x00\x01\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[ERROR] 2025-11-09 22:08:54,111 basehttp 32576 21852 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:54,114 basehttp 32576 4108 code 400, message Bad request version ('¶\x84ºn\x9b\x9c\x8cõ\x95NóÈp')
+[ERROR] 2025-11-09 22:08:54,115 basehttp 32576 4108 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:08:54,116 basehttp 32576 20784 code 400, message Bad request version ('\x16')
+[ERROR] 2025-11-09 22:08:54,116 basehttp 32576 20784 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:09:02,959 basehttp 32576 1252 code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[ERROR] 2025-11-09 22:09:02,959 basehttp 32576 1252 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:09:02,961 basehttp 32576 31176 code 400, message Bad request version ('JJ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S::\x00\x00\x003\x04ï\x04íÊÊ\x00\x01\x00\x11ì\x04Àh$Æ£0\x008£»VÄ¨ð³`')
+[ERROR] 2025-11-09 22:09:02,962 basehttp 32576 31176 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:09:02,965 basehttp 32576 32736 code 400, message Bad request version ('k+i\x98\x90:½_o¹5÷ëYÿ\x97DÍ\x00\x05\x00\x03\x02h2\x00+\x00\x07\x06jj\x03\x04\x03\x03\x00-\x00\x02\x01\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x12\x00\x00\x003\x04ï\x04í')
+[INFO] 2025-11-09 22:09:02,965 basehttp 32576 32136 code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06s\x8a\x8a\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[ERROR] 2025-11-09 22:09:02,965 basehttp 32576 32736 You're accessing the development server over HTTPS, but it only supports HTTP.
+[ERROR] 2025-11-09 22:09:02,968 basehttp 32576 32136 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:09:02,981 basehttp 32576 6232 code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x12\x00\x00\x00')
+[ERROR] 2025-11-09 22:09:02,983 basehttp 32576 6232 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:09:02,983 basehttp 32576 30844 code 400, message Bad request version ('ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06sJJ\x00\x00\x00\x17\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00')
+[ERROR] 2025-11-09 22:09:02,985 basehttp 32576 30844 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:12:07,562 autoreload 25436 13268 Watching for file changes with StatReloader
+[INFO] 2025-11-09 22:12:21,592 basehttp 32576 29752 code 400, message Bad request version ('54\x03\x0eõÜÔ|]\x95Ù\x063\x83"E\x84Ubñ@/\x04Ð\x138\x94¤s7¹:¤¬¿y\x16çÆBVó%\x94\x03J½%.\x8f')
+[ERROR] 2025-11-09 22:12:21,593 basehttp 32576 29752 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:12:21,598 basehttp 32576 29816 code 400, message Bad request version ("\x19\x7f\x13\x94]6'ÚÆèES\x1bð~E¤x\x00")
+[ERROR] 2025-11-09 22:12:21,599 basehttp 32576 29816 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:12:21,609 basehttp 32576 14236 code 400, message Bad request version ('::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06\x93ZZ\x00\x00\x00#\x00\x00\x00\x12\x00\x00\x00')
+[INFO] 2025-11-09 22:12:21,611 basehttp 32576 20096 code 400, message Bad request version ('ÚÚ\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06SZZ\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x00')
+[ERROR] 2025-11-09 22:12:21,611 basehttp 32576 14236 You're accessing the development server over HTTPS, but it only supports HTTP.
+[ERROR] 2025-11-09 22:12:21,611 basehttp 32576 20096 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:12:21,616 basehttp 32576 23824 code 400, message Bad request version ('v°È7\x8b¬Ý5@\x12º')
+[ERROR] 2025-11-09 22:12:21,616 basehttp 32576 23824 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:12:21,616 basehttp 32576 31792 code 400, message Bad request syntax ('\x16\x03\x01\x07\x00\x01\x00\x06ü\x03\x03kV»\x9dÖ)Õ\x02Ø¡\x17)#¦.\x01')
+[ERROR] 2025-11-09 22:12:21,617 basehttp 32576 31792 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:12:28,817 basehttp 32576 25980 code 400, message Bad request version ('!þ\x86\x16\x01´')
+[ERROR] 2025-11-09 22:12:28,817 basehttp 32576 25980 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:12:28,819 basehttp 32576 18356 code 400, message Bad request version ('o?^þÝ^')
+[ERROR] 2025-11-09 22:12:28,819 basehttp 32576 18356 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:12:28,830 basehttp 32576 20732 code 400, message Bad request version ('óQ\x17\x15')
+[INFO] 2025-11-09 22:12:28,833 basehttp 32576 26344 code 400, message Bad request version ('\x02h2\x08http/1.1\x00-\x00\x02\x01\x01\x00+\x00\x07\x06\x8a\x8a\x03\x04\x03\x03\x00\x1b\x00\x03\x02\x00\x02\x00')
+[ERROR] 2025-11-09 22:12:28,833 basehttp 32576 20732 You're accessing the development server over HTTPS, but it only supports HTTP.
+[ERROR] 2025-11-09 22:12:28,835 basehttp 32576 26344 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:12:28,841 basehttp 32576 29596 code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[ERROR] 2025-11-09 22:12:28,842 basehttp 32576 29596 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:12:28,842 basehttp 32576 20364 code 400, message Bad request version ('\x88¹¶ñâ\xadJUwç\xadsÄ"\x83í!ã\x14\x81\\ùD')
+[ERROR] 2025-11-09 22:12:28,844 basehttp 32576 20364 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:12:53,383 autoreload 7596 9636 Watching for file changes with StatReloader
+[INFO] 2025-11-09 22:12:57,952 basehttp 7596 31960 code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x06à\x01\x00\x06Ü\x03\x03\x8eA'\x00ÝÖÉ\x8cö!®Q{|jB¦Ýr3")
+[ERROR] 2025-11-09 22:12:57,953 basehttp 7596 31960 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:12:57,955 basehttp 7596 32116 code 400, message Bad request version ('\x12±¼Q\x9elû\x8d¦æÀ½c%ë\x1b*_<\x16±hf')
+[ERROR] 2025-11-09 22:12:57,955 basehttp 7596 32116 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:12:57,958 basehttp 7596 29960 code 400, message Bad request version ('\x9a\x9a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x063ºº\x00\x00\x00#\x00\x00\x00-\x00\x02\x01\x01\x00+\x00\x07\x06ºº\x03\x04\x03\x03\x00')
+[ERROR] 2025-11-09 22:12:57,959 basehttp 7596 29960 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:12:57,963 basehttp 7596 20204 code 400, message Bad request version ('cÐ')
+[ERROR] 2025-11-09 22:12:57,964 basehttp 7596 20204 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:13:18,582 basehttp 7596 27860 code 400, message Bad request version ('\x8a\x8a\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06S')
+[ERROR] 2025-11-09 22:13:18,583 basehttp 7596 27860 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:13:18,585 basehttp 7596 8212 code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00-\x00\x02\x01\x01\x00')
+[ERROR] 2025-11-09 22:13:18,585 basehttp 7596 8212 You're accessing the development server over HTTPS, but it only supports HTTP.
+[INFO] 2025-11-09 22:13:49,838 basehttp 7596 32696 "GET /admin HTTP/1.1" 301 0
+[INFO] 2025-11-09 22:13:49,879 basehttp 7596 7504 "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-11-09 22:13:49,912 basehttp 7596 7504 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4170
+[INFO] 2025-11-09 22:13:50,200 basehttp 7596 7504 "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+[INFO] 2025-11-09 22:13:50,203 basehttp 7596 7504 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+[INFO] 2025-11-09 22:13:50,205 basehttp 7596 31096 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+[INFO] 2025-11-09 22:13:50,205 basehttp 7596 7504 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+[INFO] 2025-11-09 22:13:50,208 basehttp 7596 20444 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+[INFO] 2025-11-09 22:13:50,210 basehttp 7596 7504 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+[INFO] 2025-11-09 22:13:50,213 basehttp 7596 7504 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[WARNING] 2025-11-09 22:13:56,730 log 7596 7504 Not Found: /
+[WARNING] 2025-11-09 22:13:56,731 basehttp 7596 7504 "GET / HTTP/1.1" 404 2862
+[WARNING] 2025-11-09 22:14:02,505 log 7596 7504 Not Found: /
+[WARNING] 2025-11-09 22:14:02,505 basehttp 7596 7504 "GET / HTTP/1.1" 404 2862
+[INFO] 2025-11-09 22:14:05,993 basehttp 7596 7504 "GET /swagger HTTP/1.1" 301 0
+[INFO] 2025-11-09 22:14:06,003 basehttp 7596 20444 "GET /swagger/ HTTP/1.1" 200 2221
+[INFO] 2025-11-09 22:14:06,059 basehttp 7596 20444 "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+[INFO] 2025-11-09 22:14:06,064 basehttp 7596 31096 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 145206
+[INFO] 2025-11-09 22:14:06,073 basehttp 7596 9176 "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+[INFO] 2025-11-09 22:14:06,075 basehttp 7596 31096 "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+[INFO] 2025-11-09 22:14:06,075 basehttp 7596 27496 "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 15480
+[INFO] 2025-11-09 22:14:06,085 basehttp 7596 20384 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 322863
+[INFO] 2025-11-09 22:14:06,110 basehttp 7596 20444 "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1046583
+[INFO] 2025-11-09 22:14:06,668 basehttp 7596 20444 "GET /swagger/?format=openapi HTTP/1.1" 200 112358
+[WARNING] 2025-11-09 22:14:23,119 log 7596 20444 Not Found: /
+[WARNING] 2025-11-09 22:14:23,120 basehttp 7596 20444 "GET / HTTP/1.1" 404 2862
+[INFO] 2025-11-09 22:14:26,062 basehttp 7596 20444 "GET /redoc HTTP/1.1" 301 0
+[INFO] 2025-11-09 22:14:26,087 basehttp 7596 20384 "GET /redoc/ HTTP/1.1" 200 964
+[INFO] 2025-11-09 22:14:26,186 basehttp 7596 20384 "GET /static/drf-yasg/redoc-init.js HTTP/1.1" 200 2566
+[INFO] 2025-11-09 22:14:26,264 basehttp 7596 31096 "GET /static/drf-yasg/redoc/redoc.min.js HTTP/1.1" 200 1042511
+[INFO] 2025-11-09 22:14:26,669 basehttp 7596 20384 "GET /static/drf-yasg/redoc/redoc-logo.png HTTP/1.1" 200 4969
+[INFO] 2025-11-09 22:14:26,670 basehttp 7596 31096 "GET /redoc/?format=openapi HTTP/1.1" 200 112358
+[WARNING] 2025-11-09 22:15:39,217 log 6304 5660 Not Found: /
+[INFO] 2025-11-09 22:17:17,072 autoreload 30288 19752 Watching for file changes with StatReloader
+[INFO] 2025-11-09 22:17:22,376 basehttp 30288 27496 "GET /api HTTP/1.1" 301 0
+[WARNING] 2025-11-09 22:17:22,484 log 30288 27324 Unauthorized: /api/
+[WARNING] 2025-11-09 22:17:22,485 basehttp 30288 27324 "GET /api/ HTTP/1.1" 401 5009
+[INFO] 2025-11-09 22:17:23,186 basehttp 30288 25204 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+[INFO] 2025-11-09 22:17:23,222 basehttp 30288 30148 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[INFO] 2025-11-09 22:17:23,227 basehttp 30288 25204 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+[INFO] 2025-11-09 22:17:23,266 basehttp 30288 27324 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+[INFO] 2025-11-09 22:17:23,316 basehttp 30288 28276 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+[INFO] 2025-11-09 22:17:23,340 basehttp 30288 27324 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+[INFO] 2025-11-09 22:17:23,343 basehttp 30288 20568 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+[INFO] 2025-11-09 22:17:23,343 basehttp 30288 25204 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[INFO] 2025-11-09 22:17:23,358 basehttp 30288 30148 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+[INFO] 2025-11-09 22:17:23,368 basehttp 30288 28276 "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+[INFO] 2025-11-09 22:17:23,381 basehttp 30288 25204 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[INFO] 2025-11-09 22:17:23,439 basehttp 30288 6556 "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533

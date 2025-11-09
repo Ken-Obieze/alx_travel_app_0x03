@@ -70,7 +70,15 @@ class ListingSerializer(serializers.ModelSerializer):
         ]
         read_only_fields = ['property_id', 'created_at', 'updated_at']
 
-    def get_reviews_count(self, obj):
+    def get_reviews_count(self, obj) -> int:
+        """Return the count of reviews for the listing.
+        
+        Args:
+            obj: The listing instance
+            
+        Returns:
+            int: The number of reviews for the listing
+        """
         return obj.reviews.count()
 
 
@@ -102,16 +110,24 @@ class BookingSerializer(serializers.ModelSerializer):
     """
     Serializer for Booking model
     """
+    from drf_spectacular.utils import extend_schema_field
+    from drf_spectacular.types import OpenApiTypes
+
     user = UserSerializer(read_only=True)
     property = ListingSerializer(read_only=True)
-    status = BookingStatusSerializer(read_only=True)
-    duration_days = serializers.ReadOnlyField()
+    status_info = BookingStatusSerializer(read_only=True)
+    
+    @extend_schema_field(OpenApiTypes.INT)
+    def get_duration_days(self, obj):
+        return (obj.end_date - obj.start_date).days
+        
+    duration_days = serializers.SerializerMethodField()
 
     class Meta:
         model = Booking
         fields = [
             'booking_id', 'property', 'user', 'start_date', 'end_date',
-            'total_price', 'status', 'duration_days', 'created_at'
+            'total_price', 'status_info', 'duration_days', 'created_at'
         ]
         read_only_fields = ['booking_id', 'created_at']
 
@@ -150,7 +166,7 @@ class BookingCreateSerializer(serializers.ModelSerializer):
             start_date__lt=end_date,
             end_date__gt=start_date
         ).exclude(
-            status__status_name__in=['cancelled', 'rejected']
+            status_info__status_name__in=['cancelled', 'rejected']
         )
 
         if overlapping_bookings.exists():
@@ -171,7 +187,7 @@ class BookingCreateSerializer(serializers.ModelSerializer):
 
         # Set default status (you might want to create this status first)
         default_status, _ = BookingStatus.objects.get_or_create(status_name='pending')
-        validated_data['status'] = default_status
+        validated_data['status_info'] = default_status
 
         return super().create(validated_data)
 
