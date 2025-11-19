@@ -24,7 +24,7 @@ except Exception as e:
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('listings.urls')),  # Include your app's URLs
+    path('api/', include('listings.urls')),
 ]
 
 # Add Swagger URLs

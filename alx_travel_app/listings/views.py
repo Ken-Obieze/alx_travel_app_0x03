@@ -668,11 +668,10 @@ class PaymentListView(generics.ListAPIView):
     """
     permission_classes = [IsAuthenticated]
     serializer_class = PaymentListSerializer
+    queryset = Payment.objects.none()
     
     def get_queryset(self):
-        return Payment.objects.filter(
-            booking__user=self.request.user
-        ).select_related('booking', 'booking__property').order_by('-payment_date')
+        return Payment.objects.filter(user=self.request.user).select_related('booking', 'booking__property')
 
 
 class PaymentDetailView(generics.RetrieveAPIView):
